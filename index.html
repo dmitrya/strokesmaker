@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="StrokesMaker is a unique software product intended for the creation of vector engravings and artistic vectorization of raster images. The software uses original algorithms for calculation of vector strokes based on initial raster images, rendering halftones and image relief.">
+    <meta name="keywords" content="StrokesMaker, engravings, vector editor, etching, artistic vectorization">
+    <meta name="author" content="Dmitry Apanovich">
+    <title>StrokesMaker 2.4 | Vector Engravings & Artistic Vectorization</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+            color: #fff;
+            text-align: center;
+        }
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            background: #262626;
+            padding: 40px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+        }
+        h1 {
+            font-size: 32px;
+            font-weight: bold;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        a {
+            color: #ffcc00;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .btn {
+            display: inline-block;
+            margin: 10px;
+            padding: 12px 20px;
+            background: #ffcc00;
+            color: #1a1a1a;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background: #ff9900;
+            color: #fff;
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 14px;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="vl-video" style="cursor:pointer; text-align:center;">
+    <video muted loop preload="metadata" playsinline poster="https://res.cloudinary.com/fontlab/image/fetch/q_60/f_auto/https://i.vexy.art/vl/websiteart/vexy-lines-hero-poster.png" style="width:100%; max-width:650px; border-radius:10px; display:block; margin:0 auto;">
+        <source src="https://res.cloudinary.com/fontlab/video/upload/f_auto,q_auto,e_volume:mute/v1754138663/vexy-lines-video/vexy-lines-teaser1-1440p22s-loop.mp4" type="video/mp4"></source>
+    </video>
+</div>
+
+<p style="font-size:20px; margin-top:20px;"><h1>Big News!</h1><br>Strokes Maker has grown into a new app, <a href="https://www.vexy.art" style="color:#ffcc00;">Vexy Lines</a>, made together with FontLab on the same core ideas.</p>
+<p style="font-size:16px; color:#ccc; margin-top:10px;">The legacy version of Strokes Maker is available below but is no longer supported.</p>
+
+<script>
+const vid = document.querySelector('.vl-video video');
+const box = document.querySelector('.vl-video');
+box.addEventListener('click', () => {
+    if (vid.paused) vid.play();
+});
+</script>
+        <h1>StrokesMaker 2.4</h1>
+        <p>Professional tool for vector engravings and artistic raster vectorization.</p>
+        <p>Unique algorithms calculate vector strokes, rendering halftones and image relief.</p>
+        <h2>Download</h2>
+        <a class="btn" href="downloads/StrokesMaker2_4_mac_x64_20250207.dmg">Download for Mac</a>
+        <a class="btn" href="downloads/StrokesMaker2_4_win_x64_20250207.exe">Download for Windows</a>
+        <!--
+        <h2>Purchase</h2>
+        <p style="font-size: 14px; font-weight: normal;">Before purchasing, please try the trial version.<br> The author provides no guarantees.<br> This is an experimental product.</p>
+        <a class="btn" href="https://fontlab.onfastspring.com/strokesmaker-2">Buy Now</a>
+        -->
+        <h2>Examples</h2>
+        <p><a href="examples/Jon-Snow-Example-2.4.strx">Jon Snow Example</a></p>
+        <h2>Gallery</h2>
+        <p><a href="https://dmapanovich.wixsite.com/mysite"><strong>Visit</strong> the previous site</a></p>
+        
+        <div class="footer"">
+            <p>Author: Dmitrii Apanovich</p>
+            <p>© 2007-2025</p>
+            <p>Contact: <a href="mailto:dmapanovich@gmail.com">dmapanovich@gmail.com</a></p>
+        </div>
+    </div>
+</body>
+</html>
